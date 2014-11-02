@@ -1,0 +1,5 @@
+Title: Admin
+----
+Text:
+
+Dummy for Panel

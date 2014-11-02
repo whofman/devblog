@@ -1,0 +1,26 @@
+Title: Mijn DevBlog
+----
+Date: 2014-11-01 14:39:49
+----
+Tags: Kirby, Baseblog
+----
+Related:
+- blog/Kirby-v2-Panel
+- blog/Kirby-v2-Beta
+- blog/KirbyCMS
+----
+Text:
+
+**Kirby** is een CMS gebaseerd op (markdown) bestanden, een zgn **NoDB** systeem. Dit betekent gemakkelijke backup, idem aanmaken en wijzigen van postings via je standaard editor. Mijn implementatie gebruikt (link: http://baseblog.sashtown.de text: Baseblog) als **Kirby** thema.
+
+Ik heb nu een implementatie gemaakt in ~/Sites/devblog. Omdat ik de standaard OSX Apache Webserver gebruik en de *DocumentRoot* in /Library/WebServer/Documents bevindt, heb ik hier een softlink aangemaakt zodat dit blog oproepbaar is via http://server/devblog. Voor de nodige ysteem aanpassingen zie (link: blog/Kirby-v2-Beta text: Kirby-v2-Beta)
+	
+Tevens heb ik de volgende opties geimplementeerd:
+
+		Tags
+		Draft status
+		Datum van posting
+		Zoeken in de posts
+		Gerelateerde postings
+		
+Het posten van berichten gaat eenvoudig met de markdown editor **Mou** die opgeroepen wordt met het commandline script **kpost**. 
