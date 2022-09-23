@@ -19,3 +19,9 @@ If you've already installed Kirby with the Starterkit remove the default `/asset
 ## Kirby?
 [Kirby](http://getkirby.com) is a lightweight, flexible and file-based CMS made by [Bastian Allgeier](http://bastianallgeier.com). If you want to learn more about Kirby, visit the Kirby Website and check out the [docs](http://getkirby.com/docs)!
 
+## Github usage
+
+- cloned using:  gh repo clone whofman/devblog
+- update using push
+
+
